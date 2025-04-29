@@ -10,7 +10,7 @@
 
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/parth581/AWS-Serverless-Disaster-Recovery-Pipeline
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/parth581/AWS-Serverless-Disaster-Recovery-System
 )](https://github.com/parth581/AWS-Serverless-Disaster-Recovery-Pipeline)
 
 ## 📌 Key Features
