@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Recovery System</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Disaster Recovery System</h1>
+            <p>Automated backup and recovery solution</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="status-card">
+                <h2>System Status</h2>
+                <div class="status-indicator" id="backup-status">
+                    <span class="status-dot"></span>
+                    <span>Backup Service</span>
+                </div>
+                <div class="status-details">
+                    <p>Last Backup: <span id="lastBackup">Loading...</span></p>
+                    <p>Next Backup: <span id="nextBackup">Loading...</span></p>
+                </div>
+            </div>
+
+            <div class="action-card">
+                <h2>Actions</h2>
+                <button id="manual-backup" class="btn">Run Manual Backup</button>
+                <button id="recover-file" class="btn secondary">Recover Files</button>
+            </div>
+
+            <div class="logs-card">
+                <h2>Recent Activity</h2>
+                <div class="logs-container" id="activity-logs">
+                    <p>Loading logs...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="recovery-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>File Recovery</h2>
+                <div id="file-list-container">
+                    <p>Loading available backups...</p>
+                </div>
+                <div class="recovery-options">
+                    <input type="text" id="recovery-path" placeholder="Enter destination path">
+                    <button id="confirm-recovery" class="btn">Recover Selected</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
