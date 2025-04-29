@@ -1,4 +1,10 @@
-# 🛡️ AWS Serverless Disaster Recovery System
+<table>
+<tr>
+<td><h1>🛡️ AWS Serverless Disaster Recovery System</h1></td>
+<td><img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS Logo" width="75" style="margin-left: 15px;"/></td>
+</tr>
+</table>
+
 
 **An automated, production-grade backup and recovery solution built on AWS serverless infrastructure**
 
