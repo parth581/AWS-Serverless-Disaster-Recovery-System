@@ -12,8 +12,8 @@ const confirmRecoveryBtn = document.getElementById('confirm-recovery');
 const recoveryPathInput = document.getElementById('recovery-path');
 
 // API Configuration
-const API_BASE_URL = 'https://r44txhke0c.execute-api.ap-south-1.amazonaws.com/prod';
-const API_KEY = '5M0YG5e8XI2xR3PTDuEzN5DbqQwIH8693nZIIysV'; // Replace with your actual API key
+const API_BASE_URL = '';
+const API_KEY = ''; // Replace with your actual API key
 
 // Initialize Dashboard
 async function initDashboard() {
